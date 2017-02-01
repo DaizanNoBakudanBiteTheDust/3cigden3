@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cigiden</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div id="headerNab">
+    
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <input type="search" name="search" placeholder="Buscar" class="form-control">
+          </li>
+          <li><a href="#">Personas</a></li>
+          <li><a href="#">El Centro</a></li>
+          <li><a href="#">Anuncios</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#"><img src="img/inglaterra.jpg"></a></li>
+          <li><a href="#" class="padL0"><img src="img/espana.jpg"></a></li>
+        </ul>
+
+      </div>
+    </nav>
+
+  </div>
+
+
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="mainNav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Inicio</a></li>
+            <li class="active"><a href="#">Noticias</a></li>
+            <li><a href="#">Agenda</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li class="big"><a href="#"><span>60</span> Proyectos</a></li>
+            <li class="big"><a href="#"><span>32</span> Investigaciones</a></li>
+            <li class="big"><a href="#"><span>6</span> Lineas de investigación</a></li>
+            <li class="big"><a href="#"><span>78</span> Publicaciones</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+
+    <section id="noticias" class="pagina">
+      <div class="container">
+        
+        <div class="header">
+          <div class="col-sm-8">
+            <h2 class="tituloPagina">Noticias</h2>
+          </div>
+          <div class="col-sm-4 share">
+            <p class="text-right">Compártelo</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+
+        <div class="col-sm-3 sidebar">
+
+          <p>Todas las Noticias <span>93</span></p>
+        <h4>Filtrar</h4>
+            
+        <ul>
+            <li>Análisis de riesgo <span>14</span></li>
+            <li>Vulnerabilidad <span>9</span></li>
+            <li>Respuesta <span>17</span></li>
+            
+          </ul>
+
+
+          <h4>Temas</h4>
+          <ul>
+            <li>Terremoto <span>14</span></li>
+            <li>Tsunami <span>9</span></li>
+            <li>Inundaciones <span>17</span></li>
+            <li>Vulnerabilidad <span>23</span></li>
+            <li>Opciones de mitigación <span>8</span></li>
+            <li>Comunicaciones <span>16</span></li>
+          </ul>
+
+
+          <h4>Líneas de investigación</h4>
+          <ul>
+            <li>Proceso de tierra sólida y amenazas naturales asociadas <span>21</span></li>
+            <li>Procesos de aguas superficiales y amenazas naturales asociadas <span>18</span></li>
+            <li>Evaluación de vulnerabilidad y riesgo de sistemas físicos y sociales <span>9</span></li>
+            <li>Gestión de desastres y respuesta a la emergencia  <span>3</span></li>
+            <li>Mitigación sustentable del riesgo <span>15</span></li>
+            <li>Información, comunicación y tecnologías para la gestión de desastres <span>19</span></li>
+          </ul>
+
+        </div>
+        <!-- Sidebar -->
+
+        <div class="col-sm-9">
+          
+
+    <div id="noticiasColumna">
+        
+<!-- ***************************************************************
+********************************************************************
+********************************************************************
+  Cambiar Font Wieght a 300 de los titulos de noticias y cambiar color a fecha (Igualar al PSD)
+********************************************************************
+********************************************************************
+**************************************************************** -->
+
+      <h2 class="tituloSeccion"><strong>Todas las Noticias</strong></h2>
+
+      <div class="col-sm-4 agenda">
+        <div class="box">
+            <img src="img/noticia.png">
+          <h4>Equipo multidisciplinario de CIGIDEN presentó avances finales de proyecto para mejorar la resiliencia en Iquique</h4>
+          <p class="fecha"><span>21 marzo 2017</span></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4 agenda">
+        <div class="box">
+            <img src="img/noticia2.png">
+          <h4>Expertos entregan propuestas para reducir los niveles de riesgo por tsunami</h4>
+          <p class="fecha"><span>21 marzo 2017</span></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4 agenda">
+        <div class="box">
+            <img src="img/noticia3.png">
+          <h4>Descarga nuestra revisión al comportamiento y uso de las redes sociales en emergencias</h4>
+          <p class="fecha"><span>21 marzo 2017</span></p>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="col-sm-4 agenda">
+        <div class="box">
+            <img src="img/noticia.png">
+          <h4>Equipo multidisciplinario de CIGIDEN presentó avances finales de proyecto para mejorar la resiliencia en Iquique</h4>
+          <p class="fecha"><span>21 marzo 2017</span></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4 agenda">
+        <div class="box">
+            <img src="img/noticia2.png">
+          <h4>Expertos entregan propuestas para reducir los niveles de riesgo por tsunami</h4>
+          <p class="fecha"><span>21 marzo 2017</span></p>
+        </div>
+      </div>
+
+      <div class="col-sm-4 agenda">
+        <div class="box">
+            <img src="img/noticia3.png">
+          <h4>Descarga nuestra revisión al comportamiento y uso de las redes sociales en emergencias</h4>
+          <p class="fecha"><span>21 marzo 2017</span></p>
+        </div>
+      </div>
+
+          
+    </div>
+
+<!-- ***************************************************************
+********************************************************************
+********************************************************************
+  Identar bien, cambiar color de la fecha, cambiar font weight a 300
+********************************************************************
+********************************************************************
+**************************************************************** -->
+
+    <div id="noticiasColumna">
+        
+        <h2 class="tituloSeccion"><strong>Cigiden en los medios</strong></h2>
+
+          <div class="col-sm-4 agenda">
+            <div class="box">
+                <img src="img/noticia.png">
+              <h4>Equipo multidisciplinario de CIGIDEN presentó avances finales de proyecto para mejorar la resiliencia en Iquique</h4>
+              <p class="fecha"><span>21 marzo 2017</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+                <img src="img/noticia2.png">
+              <h4>Expertos entregan propuestas para reducir los niveles de riesgo por tsunami</h4>
+              <p class="fecha"><span>21 marzo 2017</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+                <img src="img/noticia3.png">
+              <h4>Descarga nuestra revisión al comportamiento y uso de las redes sociales en emergencias</h4>
+              <p class="fecha"><span>21 marzo 2017</span></p>
+              
+            </div>
+            
+          </div>
+        <div class="clearfix"></div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+                <img src="img/noticia.png">
+              <h4>Equipo multidisciplinario de CIGIDEN presentó avances finales de proyecto para mejorar la resiliencia en Iquique</h4>
+              <p class="fecha"><span>21 marzo 2017</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+                <img src="img/noticia2.png">
+              <h4>Expertos entregan propuestas para reducir los niveles de riesgo por tsunami</h4>
+              <p class="fecha"><span>21 marzo 2017</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+                <img src="img/noticia3.png">
+              <h4>Descarga nuestra revisión al comportamiento y uso de las redes sociales en emergencias</h4>
+              <p class="fecha"><span>21 marzo 2017</span></p>
+              
+            </div>
+            
+          </div>
+
+          
+    </div>
+            
+            
+<!-- ***************************************************************
+********************************************************************
+********************************************************************
+  Identar bien, cambiar color de la fecha, cambiar font weight a 300
+********************************************************************
+********************************************************************
+**************************************************************** -->
+
+    <div id="noticiasColumna">
+        
+        <h2 class="tituloSeccion"><strong>Columnas</strong></h2>
+
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <h4>Seminario “Riesgos socionaturales y eventos extremos en la costa: hacia mecanismos de adaptación”</h4>
+              <p class="fecha"><img src="img/investigadorb.png"><span>&nbsp;&nbsp; Daniela Gonzales</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <h4>Inmigrantes internacionales en Chile y desastres naturales: ¿Cómo nos aproximamos a la medición de su vulnerabilidad?</h4>
+              <p class="fecha"><img src="img/investigadora.png"><span>&nbsp;&nbsp; Daniela Gonzales</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <h4>Desafíos para la producción de datos sociales a través de encuestas en zonas afectadas por desastres</h4>
+              <p class="fecha"><img src="img/personas/3.png"><span>&nbsp;&nbsp; Daniela Gonzales</span></p>
+              
+            </div>
+            
+          </div>
+        <div class="clearfix"></div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <h4>Seminario “Riesgos socionaturales y eventos extremos en la costa: hacia mecanismos de adaptación”</h4>
+              <p class="fecha"><img src="img/investigadorb.png"><span>&nbsp;&nbsp; Daniela Gonzales</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <h4>Inmigrantes internacionales en Chile y desastres naturales: ¿Cómo nos aproximamos a la medición de su vulnerabilidad?</h4>
+              <p class="fecha"><img src="img/investigadorb.png"><span>&nbsp;&nbsp; Daniela Gonzales</span></p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <h4>Desafíos para la producción de datos sociales a través de encuestas en zonas afectadas por desastres</h4>
+              <p class="fecha"><img src="img/personas/3.png"><span>&nbsp;&nbsp; Daniela Gonzales</span></p>
+              
+            </div>
+            
+          </div>
+
+          
+          </div>
+            
+            <div class="clearfix"></div>
+            
+            <div id="agendaColumna">
+        
+                <h2 class="tituloSeccion"><strong>Agenda</strong></h2>
+
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <p>Seminario “Riesgos socionaturales y eventos extremos en la costa: hacia mecanismos de adaptación”</p>
+              <p class="fecha">22 <span>MAR</span></p>
+              <img src="img/flechaAgenda.png">
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <p>Seminario “Riesgos socionaturales y eventos extremos en la costa: hacia mecanismos de adaptación”</p>
+              <p class="fecha">11 <span>MAR</span></p>
+              <img src="img/flechaAgenda.png">
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <p>Procesos de aguas superficiales y amenazas naturales asociadas</p>
+              <p class="fecha">27 <span>FEB</span></p>
+              <img src="img/flechaAgenda.png">
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <p>Seminario “Riesgos socionaturales y eventos extremos en la costa: hacia mecanismos de adaptación”</p>
+              <p class="fecha">19 <span>FEB</span></p>
+              <img src="img/flechaAgenda.png">
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <p>Procesos de aguas superficiales y amenazas naturales asociadas</p>
+              <p class="fecha">7 <span>FEB</span></p>
+              <img src="img/flechaAgenda.png">
+            </div>
+          </div>
+          <div class="col-sm-4 agenda">
+            <div class="box">
+              <p>Seminario CIGIDEN: “A 5 años del gran tsunami de Tohoku: la experiencia japonesa para la mitigación de tsunamis”</p>
+              <p class="fecha">2 <span>ENE</span></p>
+              <img src="img/flechaAgenda.png">
+            </div>
+          </div>
+
+            </div>
+
+    </div>
+
+
+
+      </div>
+    </section>
+
+<!-- ***************************************************************
+********************************************************************
+********************************************************************
+  Esta seccion esta distinta, IDENTA BIEN!
+********************************************************************
+********************************************************************
+**************************************************************** -->
+
+       <section id="anuncios">
+      <div class="container">
+        
+        <div class="col-sm-12">
+          <h2 class="tituloSeccion">Anuncios</h2>
+          <a class="link" href="#">Ir a Anuncios</a>
+
+
+          <div class="col-sm-12 anuncio">
+            <p>Convocatoria Escuela de Invierno UC 2016</p>
+            <a href="#">Revisar &nbsp;></a>
+          </div>
+          <div class="col-sm-12 anuncio">
+            <p>Call for Applications – Postdoctoral Position Information and Communication Technologies Area</p>
+            <a href="#">Revisar &nbsp;></a>
+          </div>
+          <div class="col-sm-12 anuncio">
+            <p>CIGIDEN ofrece práctica para PERIODISTA jornada completa</p>
+            <a href="#">Revisar &nbsp;></a>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <footer>
+      
+      <div class="col-sm-12">
+        
+        <div class="col-sm-3">
+          <img src="img/logo-b.png" class="logo">
+
+          <div class="afiliados">PUC</div>
+          <div class="afiliados">UCN</div>
+          <div class="afiliados">UAB</div>
+          <div class="afiliados">UTFSM</div>
+          <div class="afiliados">CONYCIT</div>
+        </div>
+
+        <div class="col-sm-2 col-sm-offset-1">
+          <ul>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Agenda</a></li>
+            <li><a href="#">Personas</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Anuncios</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Mapa del sitio</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3">
+          <ul>
+            <li class="big"><a href="#"><span>60</span> Proyectos</a></li>
+            <li class="big"><a href="#"><span>32</span> Investigadores</a></li>
+            <li class="big"><a href="#"><span>6</span> Líneas de investigación</a></li>
+            <li class="big"><a href="#"><span>78</span> Publicaciones</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-3">
+          Sigue a CIGIDEN en redes sociales
+          <ul class="rs">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/linkedin.png"></a></li>
+            <li><a href="#"><img src="img/google.png"></a></li>
+            <div class="clearfix"></div>
+          </ul>
+          <p>Edificio Hernán Briones, 3er Piso. Av. Vicuña Mackenna 4860, Macul, Santiago de Chile  /  contacto@cigiden.cl <br>
+          +562 2354 1801</p>
+        </div>
+
+      </div>
+
+      <div class="clearfix"></div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
