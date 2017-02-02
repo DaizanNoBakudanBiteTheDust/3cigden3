@@ -3,6 +3,11 @@
 body{
 	font-family: 'calibri', sans-serif;
 	width: 100%;
+	color: #3c4f5e;
+}
+
+a {
+	color: #3c4f5e!important;
 }
 
 .padL0{padding-left: 0 !important;}
@@ -46,14 +51,17 @@ body{
 		padding-right: 0;
 	}
 	#mainNav .navbar-nav>li>a {
-		font-size: 16px;
+		font-size: 18px;
 		padding-top: 72px;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: Roboto Condensed, sans-serif;
 	}
 	#mainNav .navbar-nav>li.big>a {
-		padding-left: 20px!important;
-		padding-right: 20px!important;
+		padding-left: 10px!important;
+		padding-right: 10px!important;
+		font-weight: 400!important;
+		
 	}
     
 	#headerNab .navbar-nav>li>a {
@@ -117,7 +125,7 @@ body{
 }
 
 #mainNav .navbar-nav> li.active > a {
-    color: #a6b6c7;
+    color: #a6b6c7!important;
     background-color: transparent;
 }
 
@@ -135,16 +143,15 @@ body{
 
 
 #mainNav .navbar-nav>li.big>a {
-	font-size: 16px;
-	font-weight: 700;
-	margin-top: -13px;
+	font-size: 20px;
+	margin-top: -21px;
 	text-transform: uppercase;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 #mainNav .navbar-nav>li.big>a span{
 	display: block;
-	line-height: 0.8em;
+
 }
 
 
